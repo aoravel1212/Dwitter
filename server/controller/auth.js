@@ -4,7 +4,7 @@ import {} from 'express-async-errors';
 import * as userRepository from '../data/auth.js';
 
 // TODO: Make it secure!
-const jwtSecretKey = 'F2dN7×8HVZBWaQuEEDnhsvHXRWaAR63z';
+const jwtSecretKey = 'F2dN7x8HVzBWaQuEEDnhsvHXRWqAR63z';
 const jwtExpiresInDays = '2d';
 const bcryptSaltRounds = 12;
 
