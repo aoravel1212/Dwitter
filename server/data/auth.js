@@ -8,6 +8,13 @@ let users = [
     email: 'bob@gmail.com',
     url: 'https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-1.png',
   },
+  {
+    id: '2',
+    username: 'by',
+    password: '$2b$12$G9xf8SFq3oTEgdj7ozHQ/uhDOyeQcUEDU8tnOcvpvApuadr3nE5Vm',
+    name: 'by',
+    email: 'by@gmail.com',
+  },
 ];
 
 export async function findByUsername(username) {
